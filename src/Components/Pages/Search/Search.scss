@@ -1,0 +1,41 @@
+.search-container {
+
+
+  display: grid;
+  margin: 1.8rem 0;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  background: #6F6F6F;
+
+  //Input 
+
+  input {
+   
+
+    height: 100%;
+   padding: 1rem;
+
+  }
+
+  .rate {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+ 
+}
+@media screen and (min-width: 600px) {
+  .search-container {
+
+    grid-template-columns: repeat(3, 1fr); 
+    
+
+  }
+
+  .rate {
+    display: flex;
+    justify-content: center;
+  }
+  
+}

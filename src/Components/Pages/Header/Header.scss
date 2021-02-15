@@ -1,0 +1,50 @@
+.header-container {
+
+  padding:  1.7rem 2.4rem;
+  margin: 0 -2.4rem;
+  background: #333;
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+//Nav Profile
+
+.nav-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+
+  //Username on the header
+  .username {
+
+    color: #FFCE22;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+  }
+
+  //Profile img
+  .profile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: gray;
+    overflow: hidden;
+  }
+}
+
+//Nav logo
+.nav-logo {
+h1 {
+
+  font-size: 3.6rem;
+  color: #FFCE22;
+  
+}
+}
