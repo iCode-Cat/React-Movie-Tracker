@@ -1,15 +1,12 @@
 import React from "react";
-import { connect } from 'react-redux';
-import {setTest} from '../../../Redux/Test/test-action'
 
 import "./Header.scss";
 
-const Header = ({hidden,setTest}) => {
-  console.log(setTest);
+const Header = () => {
   return (
     <header className="header-container">
       <div className="nav-logo">
-        <h1 onClick={setTest}>WATCHER</h1>
+        <h1>WATCHER</h1>
       </div>
 
       <div className="nav-profile">
@@ -23,15 +20,6 @@ const Header = ({hidden,setTest}) => {
 };
 
 
-const mapDispatchToProps = dispatch =>({
 
-  setTest:() => dispatch(setTest())
 
-})
-
-const mapStateToProps = ({test:{hidden}}) => ({
-
-  hidden
-})
-
-export default connect(mapStateToProps,mapDispatchToProps)(Header)
+export default Header

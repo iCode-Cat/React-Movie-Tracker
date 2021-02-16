@@ -3,11 +3,11 @@ import "./Main.scss";
 import Header from "../Pages/Header/Header";
 import Search from "../Pages/Search/Search";
 
-const Main = () => {
+const Main = ({setResult,results}) => {
   return (
     <section className="main-container">
       <Header />
-      <Search />
+      <Search setResult={setResult} results={results} />
     </section>
   );
 };
