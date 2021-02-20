@@ -12,7 +12,7 @@ const Header = () => {
       <div className="nav-profile">
         <div className="username">admin</div>
         <div className="profile-img">
-          <img src="" alt="profile" />
+          <img src='https://m.media-amazon.com/images/S/sash/9FayPGLPcrscMjU.png' alt="profile" />
         </div>
       </div>
     </header>
